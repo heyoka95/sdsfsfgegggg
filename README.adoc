@@ -1,0 +1,115 @@
+# Professionelle Softwareentwicklung: Projekt 2
+:icons: font
+:icon-set: fa
+
+## Projekt
+IMPORTANT: Die Abgabefrist ist der 10.05.2019 um 20:00 Uhr (Ortszeit Düsseldorf).
+Eine *fristgerechte Abgabe in AUAS ist zwingend erforderlich*.  Geben Sie am Besten sofort in AUAS ab, ihr Projekt muss nicht fertig sein.
+
+### Einführung
+
+Es wird Zeit, dass wir uns etwas intensiver mit der Software befassen, die wir nach dem kommenden Semester implementieren wollen. Wie in der ersten Vorlesung angekündigt wollen wir eine Software schreiben, die die Lehrveranstaltungen in der Informatik unterstützt. Darunter fallen Systeme wie AUAS und Ilias, aber es sind auch weitere Systeme denkbar, die im Informatikstudium nützlich wären.
+
+### Arbeitsaufträge
+
+Die Resultate aus Projekt 2 werden wir weiter verwenden, wenn es an die Implementierung der Software geht. Wir werden eine Auswahl aus den Resultaten Ihrer Projektabgaben treffen und Ihnen diese dann zur Diskussion und Abstimmung stellen. Ihre Resultate werden also einen gewichtigen Einfluss auf den weiteren Verlauf der Veranstaltung haben.
+
+
+
+#### Aufgabe 1: Personas
+Entwickeln Sie zwei Personas aus unterschiedlichen Nutzergruppen der Software. Sie finden weiter unten im Dokument eine Erklärung, was Personas sind und Tom Scheuvens als ein Beispiel für eine Persona. Ihre Persona soll sich klar von Tom unterscheiden.
+
+IMPORTANT: Bei der Bewertung der Aufgabe werden wir darauf achten, dass das die Personas als Prototypen der jeweiligen Nutzergruppen verwendbar sind. Wir werden darauf achten, dass ausreichend viele Informationen vorhanden sind, aber auch, dass nicht vollkommen irrelevante Details aufgeführt werden.
+
+#### Aufgabe 2: Abgabesystem
+Eine Kernkomponente der Software wird ein Abgabesystem werden. Ein Workflow in dem Abgabesystem ist:
+
+. Studierende laden die Aufgabenbeschreibung herunter und bearbeiten die Aufgaben.
+. Studierende laden die Lösungen in das Abgabesystem hoch.
+. Organisatoren starten manuell die faire Verteilung von Abgaben auf Korrektoren.
+. Organisatoren laden Nachzügler hoch, wenn aus gutem Grund die Abgabefrist verpasst wurde.
+. Korrektoren bewerten die Abgaben.
+. Studierende können Ihre Resultate einsehen.
+
+Entwickeln Sie Komponenten, die den Arbeitsfluss implementieren können. Beachten Sie dabei die Konzepte, die Sie in der Vorlesung gelernt haben, insbesondere das Prinzip des Information Hidings nach Parnas. Welche Entscheidungen könnten sich möglicherweise noch ändern? Kapseln Sie diese Entscheidungen in Komponenten.
+
+Beschreiben Sie für jede Komponente die Aufgabe, die die Komponente erfüllt und erklären Sie die Schnittstellen der einzelnen Komponenten. Erklären Sie, warum die Komponente benötigt wird und welche Entscheidung ggf. durch sie gekapselt wird. Erläutern Sie, wie der Workflow mit Ihren Komponenten funktioniert. *Sie brauchen keinen Code zu schreiben!*
+
+IMPORTANT: Bei der Bewertung der Aufgabe werden wir darauf achten, dass die Aufteilung in die Komponenten schlüssig erklärt wird und sich der Workflow tatsächlich wie beschrieben realisieren ließe. Wir werden auf die Verständlichkeit des Textes achten (inkl. Rechtschreibung und Grammatik). Der Text soll eine klare Linie haben und nicht "schwafeln". Eine stichpunktartige Auflistung reicht uns *nicht* aus.
+
+#### Aufgabe 3: Namensfindung
+Finden Sie einen sinnvollen Namen für unsere Software, die dann ein Abgabesystem, Teilfunktionen aus Ilias und die von Ihnen ausgewählten weiteren Systemen umfasst.
+
+IMPORTANT: Die Bewertung wird sich darauf beschränken, dass der Name im Kontext einen Sinn ergibt und öffentlich verwendet werden kann. Variationen von sauakuf würden wir aussschließen.
+
+#### Aufgabe 4: Funktionsumfang
+Überlegen Sie sich mindestens zwei **unterschiedliche** Teilsysteme, die Bestandteil der Software sein sollen.
+Ein solches Teilsystem könnte beispielsweise ein Diskussionsforum (das dürfen Sie natürlich nicht beschreiben, genauso wenig wie ein Abgabesystem und ein System um Dateien zur Verfügung zu stellen) sein.
+
+Ihr Text soll auf jeden Fall die folgenden Fragen beantworten:
+
+* Was ist die Aufgabe des Systems?
+* Welche Vorteile bietet das System für welche Anwendergruppen der Software?
+
+Seien Sie bei der Beschreibung konkret genug. Es muss dem Leser vollkommen klar sein, was das System leistet und warum es vorteilhaft ist.
+
+IMPORTANT: Bei der Bewertung der Aufgabe werden wir darauf achten, dass das System im Kontext der Aufgabe inhaltlich einen Sinn ergibt. Wir werden darauf achten, dass die Leitfragen beantwortet werden. Wie bei Aufgabe 2 achten wir auf Verständlichkeit (inkl. Rechtschreibung und Grammatik) und dass der Text eine klar erkennbare Linie hat. Auch hier ist eine stichpunktartige Auflistung nicht ausreichend.
+
+
+=== Personas
+Eine Persona ist eine fiktive Person, die stellvertretend für eine Nutzergruppe steht.
+Personas sind ein Mittel aus der Produktentwicklung und sollen bei der Beantwortung der Frage "Für wen entwickeln wir das Produkt" helfen.
+
+Die Persona soll der Zielgruppe des Systems ein glaubwürdiges Gesicht geben und uns dazu bewegen über das System aus Nutzersicht nachzudenken. Wir reden also nicht mehr über den Studierenden, sondern über Tom Scheuvens, der Informatik im ersten Semester studiert.
+
+So könnte die Beschreibung einer Persona aussehen:
+
+|===
+|Name | Hintergrund | Ziel
+
+a| image::tom.png[]
+
+[quote, Tom Scheuvens (20)]
+In meiner Bachelorarbeit baue ich denen mal ein vernünftiges Abgabesystem.
+
+| Tom studiert im ersten Semester Informatik an der HHU. Er hört in diesem Semester unter Anderem die Veranstaltung "Programmierung".
+
+In der Schule hatte er Informatik als Leistungskurs und hat dort auch schon etwas Java gelernt.
+
+Zu Hause verwendet Tom Windows 10, da er ganz gerne Computerspiele spielt. Aus Spaß hat er mit zwei Freunden angefangen ein Jump-and-Run Spiel in Java zu entwickeln.
+
+Er ärgert sich darüber, dass das Ilias so langsam ist und findet es ziemlich nervig, dass er dort rein muss um die Übungsblätter herunterzuladen. Das Forum benutzt er wegen der Geschwindigkeit auch nicht aktiv. Ihm gefällt nicht, dass er zwei Systeme benutzen und sich auch noch zwei unterschiedliche Logins merken muss.
+
+| Tom möchte die Klausurzulassung in "Programmierung" erreichen. Das Feedback der Korrektoren schaut er sich nur an, wenn er zu viele Punkte verloren hat.
+|===
+
+Personas haben einen Namen und Hintergrundinformationen, die uns helfen die Motivationen und Handlungen der Persona zu verstehen und die Interaktion mit dem System vorhersagen helfen. Außerdem hat jede Persona ein Ziel, das sie mit Hilfe des System erreichen will. Eine Persona sollte genügend Details haben, damit wir uns die Person vorstellen können. Es sollte aber bei einer Steckbriefdarstellung bleiben, wir wollen keine Biographien lesen müssen.
+
+
+Für AUAS wollen wir uns auf folgende abstrakte Nutzergruppen festlegen:
+
+* StudentInnen (belegen Übungen, reichen Abgaben ein)
+* KorrektorInnen (bekommen Abgaben zugewiesen, vergeben Punkte nach Vorgaben)
+* OrganisatorInnen (stellen Blätter online, geben Korrekturvorgaben, entscheiden in strittigen Fällen, erstellen Zulassungslisten)
+
+Besonders wertvoll werden Personas, wenn sie Ihnen *nicht* ähnlich ist. Personas können sehr hilfreich sein um an Nutzergruppen zu denken, die wir sonst leicht vergessen, z.B. Personen mit Handicap.
+
+## Abgabe (inhaltlich)
+Sie geben in deutscher oder englischer Sprache in der Datei `abgabe.adoc` im Repository ab. Wir erwarten von Ihnen, dass Sie sich intensiv mit den Aufgaben befassen und diese nicht nur oberflächlich abarbeiten (Sie haben nicht ohne Grund eine Woche Zeit für die Bearbeitung). Wir erwarten außerdem, dass Ihre Abgabe weitestgehend frei von grammatikalischen und orthographischen Fehlern ist und eine klare Linie hat.
+
+## Abgabe (organisatorisch/technisch)
+Sie geben das Projekt über GitHub ab, es zählt der letzte Commit vor der Abgabefrist.
+Zusätzlich zu der Abgabe über GitHub *müssen* wir noch einige Daten in AUAS von Ihnen bekommen, um die Korrektoren zuzuordnen. Geben Sie im Textfeld zum Projekt also die Daten in folgendem Format ab:
+
+```
+name: Ihr GitHub Username
+url: Die URL Ihres Repositories in dem Projekt 2 ist
+```
+
+Beispiel:
+```
+name: propratester
+url: https://github.com/hhu-propra1-ss-19/projekt-1-marsrover-propratester
+```
+
+IMPORTANT: Nachbearbeitungen erfordern zwingend, dass es eine Abgabe in AUAS gibt. Es werden keine Nachreichungen angenommen (auch nicht gegen Joker).
