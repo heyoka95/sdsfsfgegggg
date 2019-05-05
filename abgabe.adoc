@@ -32,7 +32,7 @@ Im folgenden werde ich erläutern wie man ein Persona herstellt.
 Anschließend zeige ich zwei Beispiele für die Nutzergruppen Studierender und Korrektor:
 Bsp Studierender
 	
-	|===
+|===
 |Name | Hintergrund | Ziel
 
 a| image::tom.png[]
@@ -47,7 +47,6 @@ In der Schule hatte er Informatik als Leistungskurs und hat dort auch schon etwa
 Zu Hause verwendet Tom Windows 10, da er ganz gerne Computerspiele spielt. Aus Spaß hat er mit zwei Freunden angefangen ein Jump-and-Run Spiel in Java zu entwickeln.
 
 Er ärgert sich darüber, dass das Ilias so langsam ist und findet es ziemlich nervig, dass er dort rein muss um die Übungsblätter herunterzuladen. Das Forum benutzt er wegen der Geschwindigkeit auch nicht aktiv. Ihm gefällt nicht, dass er zwei Systeme benutzen und sich auch noch zwei unterschiedliche Logins merken muss.
-
 | Tom möchte die Klausurzulassung in "Programmierung" erreichen. Das Feedback der Korrektoren schaut er sich nur an, wenn er zu viele Punkte verloren hat.
 |===
 	
