@@ -13,7 +13,7 @@ Zu aller erst muss man erklären wie man generell Personas entwickelt und dazu g
 Zu aller erst ist es wichtig dass man versteht was ein Personas ist, darunter versteht man eine Mensch-Comeputer-Interaktion, die einen Prototyp für eine Nutzergruppe darstellt.
 Im folgenden werde ich erläutern wie man ein Persona herstellt.
 
-* Als ersten Schritt muss man recherchieren bzw man muss Informationen sammeln wofür die Personas gebraucht werden. In dem Falle brauchen wir Personals für ein Abgabesystem 
+* Als ersten Schritt muss man recherchieren bzw man muss Informationen sammeln wofür die Personas gebraucht werden. In dem Falle brauchen wir Personas für ein Abgabesystem 
 * und dies beinhaltet folgende Nutzergruppen wie Korrektor, Organisator und Studierende. Es ist wichtg dabei zu beachten wie viele Persona man braucht daher ist die Recherche so notwendig.
 	
 	
@@ -30,27 +30,50 @@ Im folgenden werde ich erläutern wie man ein Persona herstellt.
 	
 	
 Anschließend zeige ich zwei Beispiele für die Nutzergruppen Studierender und Korrektor:
-Bsp Studierender
+* Bsp Studierender
 	
 |===
 |Name | Hintergrund | Ziel
 
 a| image::Akin.png[]
 
-[quote, Akin Wahr (20)]
+[quote, Akin Wahr (28)]
 Ich bin so motiviert ein neues Abgabesystem zu programmieren.
 
 | Ich studiere Informatik im vierten Semester und belege propra1. Ich finde die Aufgabe sehr spaßig.
 
 In der Schule hatte ich kein Informatik daher muss ich einiges nachholen aber mein Anreiz treibt mich voran.
 
-Meine Interesseb sind programmieren, Fitness und Boxen, vorallem interesiiere ich mich für Ki.
+Meine Interessen sind programmieren, Fitness und Boxen, vorallem interesiiere ich mich für Ki.
 
 Mich regt das Abgabesystem auf, weil es zu langsam ist oft hängt.
 | Ich möchte eun neues Abgabesystem programmieren wo wir unabhängig sind von allen außerdem will ich korrekte Abgaben machen.
 |===
 	
 	
+
+* Bsp Korrektor
+
+|===
+|Name | Hintergrund | Ziel
+
+a| image::Sami.png[]
+
+[quote, Sami Wur (27)]
+Ich bin ein Korrektor in propra 1 und freue mich auf die Abgaben und auf das neue Abgabesystem.
+
+| Ich bin Doktorand im Bereich Deep Learning und will nach meiner Doktorarbeit in ein Groß-Unternehmen.
+
+In der Schule hatte ich Informatik und zuhause war ich Bücher lesen über Ai und Complierbau etc. 
+
+Meine Interessen sind Zocken, Spazieren, Leuten zu helfen und Webseiten designen.
+
+Ich freue mich die Abgaben meiner Kommilitionen zu korrigieren gar ihnen zu helfen.
+| Ich finde dass einiges sich ändern muss an unserer Fakultät vorallem das Abgabesystem.
+|===
+	
+
+
 	
 
 
