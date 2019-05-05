@@ -39,13 +39,9 @@
 
 	[quote, Akin Hans (23)]
 	Ich freue mich so sehr ein neues Abgabesystem zu programmieren! Auas nervt !
-
 	| Ich studiere an der Hhu Informatik und befinde mich im vierten Semester, derzeit belege ich Info 4 und Propra 1.
-	
 	Ich hatte nie in der Schule informatik aber dennoch habe ich mich dafür stark interesiert vorallem im Ki-Bereich.
-	
 	Meine Interessen sind Boxen, Fitness und Musik etc.
-	
 	| Mein Ziel ist es die Zulassung für propra zu bekommen ebenfalls möchte ich meinen Master in Ki machen.
 	|===
 	
