@@ -33,7 +33,7 @@ Anschließend zeige ich zwei Beispiele für die Nutzergruppen Studierender und K
 * Bsp Studierender
 	
 |===
-|Name | Hintergrund | Ziel
+|Name | Hintergrund | Aufgabe
 
 a| image::Akin.png[]
 
@@ -46,7 +46,7 @@ In der Schule hatte ich kein Informatik daher muss ich einiges nachholen aber me
 
 Meine Interessen sind programmieren, Fitness und Boxen, vorallem interesiiere ich mich für Ki.
 
-Ich möchte eun neues Abgabesystem programmieren wo wir unabhängig sind von allen außerdem will ich korrekte Abgaben machen.
+Ich möchte ein neues Abgabesystem programmieren wo wir unabhängig sind von allen außerdem will ich korrekte Abgaben machen.
 | Meine Aufgabe ist es Module und Übungen zu belegen und die Hausaufgaben fristgerecht abzugeben.
 |===
 	
@@ -55,7 +55,7 @@ Ich möchte eun neues Abgabesystem programmieren wo wir unabhängig sind von all
 * Bsp Korrektor
 
 |===
-|Name | Hintergrund | Ziel
+|Name | Hintergrund | Aufgabe
 
 a| image::Sami.png[]
 
