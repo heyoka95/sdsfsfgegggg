@@ -34,9 +34,7 @@
 	
 	|===
 	|Name | Hintergrund | Ziel
-
 	a| image::Akin.png[]
-
 	[quote, Akin Hans (23)]
 	Ich freue mich so sehr ein neues Abgabesystem zu programmieren! Auas nervt !
 	| Ich studiere an der Hhu Informatik und befinde mich im vierten Semester, derzeit belege ich Info 4 und Propra 1.
