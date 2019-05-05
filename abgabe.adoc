@@ -1,0 +1,77 @@
+
+ 
+
+
+
+= Professionelle Softwareentwicklung: Projekt 2
+	 Akin Kilincarslan <akin.hero@hotmail.de>
+
+
+== Aufgabe 1: Personas
+	Zu aller erst muss man erklären wie man generell Personas entwickelt und dazu gibt es folgende Schritte an die man sich halten muss.
+	Zu aller erst ist es wichtig dass man versteht was ein Personas ist, darunter versteht man eine Mensch-Comeputer-Interaktion, die einen Prototyp für eine Nutzergruppe darstellt.
+	Im folgenden werde ich erläutern wie man ein Persona herstellt.
+
+	Als ersten Schritt muss man recherchieren bzw man muss Informationen sammeln wofür die Personas gebraucht werden. In dem Falle brauchen wir Personals für ein Abgabesystem 
+	und dies beinhaltet folgende Nutzergruppen wie Korrektor, Organisator und Studierende. Es ist wichtg dabei zu beachten wie viele Persona man braucht daher ist die Recherche so notwendig.
+	
+	
+	Nachdem man genung Informationen gesammelt hat, muss man demographsiche Informationen zu den Personas bzgl. ihrer Tätigkeit im Privatem und ihre Tätigkeit für das Abgabesystem hinzufügen.
+	Anbei angefügt wäre es passend wenn man ein Foto vom jeweiligen Persona zur Verfügung stellt. Man sollte in dem Fall nur angeben das Alter, Name, Geschlecht und in welcher Semester man sich befindet vielleicht wäre es hier sogar sinnvoll wenn man erwähnt zu welcher Nutzergruppe man gehört ob man Studierender oder Korrektor ist. 
+	
+	
+	Nachde man die basic-Informationen über die Personas preisgegeben hat, muss man nun persöhnliche Interessen und Tätigkeiten auch background genannt erwähnen, am besten wäre es wenn man angeben könne was man im privatem gerne macht und seine Leidenschaften erläutert bzgl unserer Nutzergruppen könne man erwähnen wie einem das Studium fällt ider welche Moduel besonders spaßig sind.
+	
+	
+	Als vierten Schritt wäre es essentiel die Ziele und die Motivation jeweiliger Nutzergruppen anzugeben, hier wäre es beduetsam bezüglich sich auf das Studium zu beziehen, bzw was man nachdem Bachelor oder Master machen möchte etc.
+	
+	
+	
+	
+	Anschließend zeige ich zwei Beispiele für die Nutzergruppen Studierender und Korrektor:
+	Bsp Studierender
+	
+	
+	|===
+	|Name | Hintergrund | Ziel
+
+	a| image::Akin.png[]
+
+	[quote, Akin Hans (23)]
+	Ich freue mich so sehr ein neues Abgabesystem zu programmieren! Auas nervt !
+
+	| Ich studiere an der Hhu Informatik und befinde mich im vierten Semester, derzeit belege ich Info 4 und Propra 1.
+	
+	Ich hatte nie in der Schule informatik aber dennoch habe ich mich dafür stark interesiert vorallem im Ki-Bereich.
+	
+	Meine Interessen sind Boxen, Fitness und Musik etc.
+	
+	| Mein Ziel ist es die Zulassung für propra zu bekommen ebenfalls möchte ich meinen Master in Ki machen.
+	|===
+	
+	
+
+
+
+== Aufgabe 2: Abgabesystem
+
+_Lösung für Aufgabe 2_
+
+== Aufgabe 3: Namensfindung
+
+_Lösung für Aufgabe 3_
+
+== Aufgabe 4: Funktionsumfang
+
+_Lösung für Aufgabe 4_
+
+== Kommentare
+
+_Falls Sie noch zusätzliche Anmerkungen für die Korrektur haben_
+
+
+
+Quelle : https://learnxinyminutes.com/docs/de-de/asciidoc-de/
+		https://de.wikipedia.org/wiki/Persona_(Mensch-Computer-Interaktion)
+		https://uxpressia.com/blog/how-to-create-persona-guide-examples
+		
